@@ -8,7 +8,9 @@ import "./index.css"
 
 function App() {
   return (
+  
     <BrowserRouter>
+    <div className='min-h-screen'>
     <Navbar />
     <Sidebar />
       <Routes>
@@ -17,6 +19,7 @@ function App() {
         <Route path = "/post/:id" element = {<SingleBlog />} />
       </Routes>
       <Footer />
+      </div>
     </BrowserRouter>
   );
 }
