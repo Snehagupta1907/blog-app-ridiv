@@ -1,5 +1,4 @@
 import React from 'react';
-import { BiUser, BiCommentDots } from 'react-icons/bi';
 import { MdOutlineAddReaction } from 'react-icons/md';
 import { useBlogsContext } from '../../context/blogsContext';
 import Loader from '../Loader/Loader';
